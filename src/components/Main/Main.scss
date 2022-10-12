@@ -24,6 +24,13 @@
     background-color: $bgCard;
     border-radius: 10px;
     padding: 0.5rem;
+    transition: all 0.5s;
+    // box-shadow: inset 10px 11px 20px 0px rgba(0, 0, 0, 1);
+    &:hover {
+      -webkit-box-shadow: 0px 0px 62px 24px rgba(20, 20, 20, 0.75);
+      -moz-box-shadow: 0px 0px 62px 24px rgba(20, 20, 20, 0.75);
+      box-shadow: 0px 0px 62px 24px rgba(20, 20, 20, 0.75);
+    }
 
     .title-div {
       padding: 0.5rem;
